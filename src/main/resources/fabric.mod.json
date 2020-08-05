@@ -1,38 +1,33 @@
 {
   "schemaVersion": 1,
-  "id": "campanion",
+  "id": "howlingwolves",
   "version": "${version}",
 
-  "name": "Campanion",
-  "description": "A camping companion that adds items and utilities to improve your life away from home.",
+  "name": "Howling Wolves",
+  "description": "Adds Howling Wolves to the game",
   "authors": [
+    "NeeEoo",
     "Wyn Price",
     "NeusFear",
     "Prospector",
     "TerraformersMC"
   ],
   "contact": {
-    "homepage": "https://github.com/TerraformersMC/Campanion",
-    "sources": "https://github.com/TerraformersMC/Campanion"
+    "homepage": "https://github.com/NeeEoo/HowlingWolves",
+    "sources": "https://github.com/NeeEoo/HowlingWolves"
   },
 
   "license": "LGPL-3.0-only",
-  "icon": "assets/campanion/icon.png",
+  "icon": "assets/howlingwolves/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.terraformersmc.campanion.Campanion"
-    ],
-    "client": [
-      "com.terraformersmc.campanion.client.CampanionClient"
-    ],
-    "dossier": [
-      "com.terraformersmc.campanion.data.CampanionData"
+      "neeeoo.howlingwolves.HowlingWolves"
     ]
   },
   "mixins": [
-    "campanion.mixins.json"
+    "howlingwolves.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.7.4",

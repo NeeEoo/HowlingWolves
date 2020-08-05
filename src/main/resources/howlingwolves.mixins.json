@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "neeeoo.howlingwolves.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinWolfEntity"
+  ],
+  "client": [
+    "client.MixinWolfEntityModel",
+    "client.MixinWolfEntityClient"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

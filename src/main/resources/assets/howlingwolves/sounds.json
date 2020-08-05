@@ -1,0 +1,9 @@
+{
+	"howl": {
+		"subtitle": "subtitles.howlingwolves.howl",
+		"sounds": [
+			"howlingwolves:entity/wolf/howl_1",
+			"howlingwolves:entity/wolf/howl_2"
+		]
+	}
+}

@@ -1,8 +1,0 @@
-{
-  "parent":"campanion:block/leather_tanner_full",
-  "textures": {
-    "particle": "block/oak_planks",
-    "wood": "block/stripped_oak_log",
-    "leather": "campanion:item/tanned_leather"
-  }
-}
